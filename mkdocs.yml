@@ -1,6 +1,5 @@
 site_name: My Docs
 
-site_url: https://vast-survey.org/vast-pipeline/
 edit_uri: "tree/dev/docs/"
 dev_addr: localhost:8008
 
