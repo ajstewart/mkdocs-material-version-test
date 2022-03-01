@@ -1,80 +1,18 @@
 site_name: My Docs
 
-edit_uri: "tree/dev/docs/"
-dev_addr: localhost:8008
-
-docs_dir: docs
-site_dir: docs_build
+site_dir: site
 
 theme:
   name: material
-  custom_dir: overrides
-  palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      accent: blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
+  custom_dir: overrides
 
 extra:
   version:
     provider: mike
-
-extra_css:
-  - css/extras.css
-extra_javascript:
-  - js/extra.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-markdown_extensions:
-  - admonition
-  - attr_list
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.tabbed
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - toc:
-      toc_depth: 4
-      permalink: true
-  - lightgallery
-
-plugins:
-  - search
-  - minify:
-      minify_html: true
-      minify_js: true
-      htmlmin_opts:
-        remove_comments: true
-      js_files:
-        - js/extra.js
-  - git-revision-date-localized:
-      fallback_to_build_date: true
-      enable_creation_date: true
-  - mkdocstrings
 
 nav:
   - Home: index.md
