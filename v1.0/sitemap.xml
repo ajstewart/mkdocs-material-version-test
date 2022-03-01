@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
+         <loc>https://ajstewart.github.io/mkdocs-material-version-test/v1.0/</loc>
          <lastmod>2022-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://ajstewart.github.io/mkdocs-material-version-test/v1.0/pages/bar/</loc>
          <lastmod>2022-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://ajstewart.github.io/mkdocs-material-version-test/v1.0/pages/foo/</loc>
          <lastmod>2022-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://ajstewart.github.io/mkdocs-material-version-test/v1.0/pages/new/</loc>
          <lastmod>2022-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
