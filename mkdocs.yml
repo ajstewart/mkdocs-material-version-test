@@ -1,0 +1,19 @@
+site_name: My Docs
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - Home: index.md
+  - Section A:
+    - FOO: foo.md
+    - BAR: bar.md
