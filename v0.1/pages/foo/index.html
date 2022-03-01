@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -43,6 +42,27 @@
 
     
     
+
+  <!-- Determine title -->
+  
+  
+    
+  
+
+  <!-- The image needs to have an absolute URL -->
+  <!--  -->
+
+  <!-- Open graph meta tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="My Docs - FOO" />
+  <meta property="og:description" content="None" />
+  <meta property="og:url" content="None" />
+  <!-- <meta property="og:image" content="assets/images/illustrations/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1080" />
+  <meta property="og:image:height" content="568" /> -->
+
+
   </head>
   
   
@@ -72,6 +92,27 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+  <!-- Extra stylesing -->
+  <style>
+      .md-banner a,
+      .md-banner a:focus,
+      .md-banner a:hover{color:currentColor}.md-banner
+      strong{white-space:nowrap}.md-banner}
+  </style>
+
+  <a href="../../changelog/">
+    <strong>
+      New in version 1.0.0</strong>: Documentation, add epoch mode and more 🙌. Check the <strong>release notes!
+    </strong>
+  </a>
+
+
+          </div>
+        </aside>
+      
     </div>
     
       <div data-md-component="outdated" hidden>
@@ -79,9 +120,9 @@
           
             <div class="md-banner__inner md-grid md-typeset">
               
-  You're not viewing the latest version.
+  You're viewing an outdated or development version.
   <a href="../../..">
-    <strong>Click here to go to latest.</strong>
+    <strong>Click here to go to latest stable release.</strong>
   </a>
 
             </div>
