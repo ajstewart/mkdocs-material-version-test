@@ -18,5 +18,3 @@ nav:
   - Section A:
     - FOO: pages/foo.md
     - BAR: pages/bar.md
-  - Section B:
-    - NEW: pages/new.md
