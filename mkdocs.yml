@@ -1,11 +1,10 @@
 site_name: My Docs
-
+site_url: https://ajstewart.github.io/mkdocs-material-version-test/
 site_dir: site
 
 theme:
   name: material
   features:
-    - navigation.instant
     - navigation.tabs
     - navigation.sections
   custom_dir: overrides
